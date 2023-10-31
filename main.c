@@ -6,12 +6,13 @@
 
 int main()
 {
-    p_cell cell = createcell(18, 1);
-    p_cell cell2 = createcell(2, 0);
+    p_cell cell = createcell(2, -2);
+    p_cell cell2 = createcell(18, 2);
+    t_d_list list = emptylist(-3);
 
-    t_d_list list = emptylist(7);
-    addheadcell(&list, cell,1);
-    addheadcell(&list, cell2,0);
+    addheadcell(&list, cell);
+    addheadcell(&list, cell2);
+
 
     displaylistlevel(&list);
 

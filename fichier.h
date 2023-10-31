@@ -23,7 +23,7 @@ p_cell createcell(int , int );
 
 t_d_list emptylist(int );
 
-void addheadcell(t_d_list*,p_cell, int );
+void addheadcell(t_d_list * list, p_cell cell);
 
 void displaylistlevel(t_d_list*);
 
